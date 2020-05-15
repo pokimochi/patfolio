@@ -9,7 +9,6 @@ function App() {
   return (
     <div id="App">
       <Navbar />
-      <About/>
     </div>
   );
 }
