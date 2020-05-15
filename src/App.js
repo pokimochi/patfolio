@@ -9,6 +9,7 @@ function App() {
   return (
     <div id="App">
       <Navbar />
+      <Illustrations />
     </div>
   );
 }
