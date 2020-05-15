@@ -1,0 +1,26 @@
+#navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#navbar-home-avatar {
+  max-width: 10%;
+  margin-right: 4%;
+  vertical-align: middle;
+}
+
+#navbar-options {
+  flex-grow: 2;
+  text-align: right;
+}
+
+.navbar-options-link {
+  text-decoration: none;
+  color: black;
+  margin: 0 3%;
+}
+.navbar-options-link:nth-last-child(1) {
+  margin-right: 0;
+}
