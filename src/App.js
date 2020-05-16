@@ -1,5 +1,5 @@
 import React from 'react';
-import "./App.css"
+import "./App.css";
 import Navbar from './components/Navbar/Navbar';
 import LandingPage from './components/LandingPage/LandingPage';
 import Illustrations from './components/Illustrations/Illustrations';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div id="App">
       <Navbar />
-      <Illustrations />
+      <LandingPage />
     </div>
   );
 }

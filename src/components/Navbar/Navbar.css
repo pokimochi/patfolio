@@ -2,6 +2,7 @@
   display: inline-flex;
   align-items: center;
   width: 100%;
+  height: 10vh;
 }
 
 #navbar-home {
@@ -31,7 +32,7 @@
 
 /* Media Queries */
 
-/* Custom, iPhone Retina */ 
+/* Mobile Phones */ 
 @media only screen and (max-width : 768px) {
   #navbar-options {
     display: none;
@@ -46,7 +47,7 @@
   }
 }
 
-/* Small Devices, Tablets */
+/* Desktop */
 @media only screen and (min-width : 768px) {
   #navbar-options {
     display: block;

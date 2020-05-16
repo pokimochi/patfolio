@@ -1,6 +1,52 @@
 #landing-page {
-  height: 95vh;
-  width: 93vw;
-  
-  align-content: center;
+  width: 100%;
+  margin-top: 14vh;
+}
+
+#landing-page-desc {
+}
+
+#landing-page-title {
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom: 0.1em;
+}
+
+.landing-page-social-media-icons {
+  margin-top: 1em;
+  width: 3em;
+  margin-right: 2em;
+}
+
+#landing-page-images {
+  text-align: right;
+}
+
+#animationImg {
+  width: 40em;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+/* Media Queries */
+
+/* Mobile Phones */ 
+@media only screen and (max-width : 768px) {
+  #landing-page {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  #landing-page-title {
+    font-size: 3em;
+  }
+
+  #landing-page-images {
+    margin-top: 2vh;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width : 768px) {
+
 }
