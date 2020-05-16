@@ -12,9 +12,15 @@ const LandingPage = () => {
       <div id="landing-page-desc" className="mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--span-12-tablet mdc-layout-grid__cell--span-12-phone">
         <h1 id="landing-page-title">Animations</h1>
         <p id="landing-page-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <img className="landing-page-social-media-icons" src={IGLogo} alt="Instagram"/>
-        <img className="landing-page-social-media-icons" src={LinkedInLogo} alt="LinkedIn"/>
-        <img className="landing-page-social-media-icons" src={TwitterLogo} alt="Twitter"/>
+        <a href="https://www.instagram.com/pan.de.monay/" target="_blank" rel="noopener noreferrer">
+          <img className="landing-page-social-media-icons" src={IGLogo} alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/in/patricia-alyson-deogracias-81a608192/" target="_blank" rel="noopener noreferrer">
+          <img className="landing-page-social-media-icons" src={LinkedInLogo} alt="LinkedIn"/>
+        </a>
+        <a href="https://twitter.com/fastestpeanut" target="_blank" rel="noopener noreferrer">
+          <img className="landing-page-social-media-icons" src={TwitterLogo} alt="Twitter"/>
+        </a>
       </div>
       <div id="landing-page-images" className="mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--span-12-tablet mdc-layout-grid__cell--span-12-phone">
         <img id="animationImg" src={AnimationImg} alt="Animation Sample"/>
