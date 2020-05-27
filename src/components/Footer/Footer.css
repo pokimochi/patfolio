@@ -1,0 +1,11 @@
+#footer {
+  text-align: center;
+  color: 	#404040;
+  font-weight: 600;
+}
+
+.footer-icons {
+  padding: 0.5em;
+  width: 55px;
+  opacity: 0.7;
+}

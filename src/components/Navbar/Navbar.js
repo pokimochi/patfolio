@@ -1,27 +1,27 @@
 import React from 'react';
 import "./Navbar.css";
-import "./Hamburger.css"
-import avatar from "../../resources/images/placeholder-avatar.png";
+import "./Hamburger.css";
+import avatar from './../../resources/images/avatar.jpg';
 import { slide as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom';
+import Footer from './../Footer/Footer';
 
 const Navbar = () => {
   return (
-    <header id="navbar">
-      <div id="navbar-home">
-        <img id="navbar-home-avatar" src={avatar} alt="Avatar"/>
-        <a id="navbar-home-title">Patricia Deogracias</a>
-      </div>
-      <div id="navbar-options">
-        <a className="navbar-options-link" href="#">Illustrations</a>
-        <a className="navbar-options-link" href="#">Animations</a>
-        <a className="navbar-options-link" href="#">About Me</a>
+    <div id="navbar">
+      <div id="sidenav">
+        <img id="avatar" src={avatar} alt="Patricia" />
+        <h1 id="sidenav-title">Patricia Deogracias</h1>
+        <Link className="sidenav-link-selected" to="/illustrations">Illustrations</Link>
+        <Link to="/animations">Animations</Link>
+        <Link to="/about">About Me</Link>
       </div>
       <Menu className="navbar-hamburger" right noOverlay>
-        <a className="navbar-hamburger-link" href="#">Illustrations</a>
-        <a className="navbar-hamburger-link" href="#">Animations</a>
-        <a className="navbar-hamburger-link" href="#">About Me</a>
+        <Link className="navbar-hamburger-link" to="/illustrations">Illustrations</Link>
+        <Link className="navbar-hamburger-link" to="/animations">Animations</Link>
+        <Link className="navbar-hamburger-link" to="/about">About Me</Link>
       </Menu>
-    </header>
+    </div>
   );
 }
 
