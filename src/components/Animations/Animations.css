@@ -1,0 +1,14 @@
+#animations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.animations-title {
+  margin-bottom: .25rem;
+  margin-top: 0.5rem;
+  color: #7E7D77;
+  font-weight: 400;
+}
