@@ -6,7 +6,7 @@ const Animations = () => {
   return (
     <div id="animations">
       <h1>Animation Reel</h1>
-      <ReactPlayer className="player" width="70%" height="60%" url='https://youtu.be/Zys4yKF3i2w' controls />
+      <ReactPlayer className="player" width="60%" height="80%" url='https://youtu.be/Zys4yKF3i2w' controls />
       <h3 className="animations-title">Demo reel featuring work up to May 2020</h3>
     </div>
   );

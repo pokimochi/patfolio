@@ -81,6 +81,9 @@
     align-items: center;
     padding: 2vh 10vw 2vh 10vw;
     width: 80vw;
+    height: auto;
+    position: fixed;
+    height: auto;
   }
 
   #navbar-header {

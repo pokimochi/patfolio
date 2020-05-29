@@ -47,9 +47,9 @@ const Navbar = () => {
         </div>
       </div>
       <div id="navbar-links" style={isOpen ? active : {}}>
-        <Link style={location.pathname === "/illustrations" ? selected : {}} to="/illustrations">Illustrations</Link>
-        <Link style={location.pathname === "/animations" ? selected : {}} to="/animations">Animations</Link>
-        <Link style={location.pathname === "/about" ? selected : {}} to="/about">About Me</Link>
+        <Link onClick={handleBurgerClicked} style={location.pathname === "/illustrations" ? selected : {}} to="/illustrations">Illustrations</Link>
+        <Link onClick={handleBurgerClicked} style={location.pathname === "/animations" ? selected : {}} to="/animations">Animations</Link>
+        <Link onClick={handleBurgerClicked} style={location.pathname === "/about" ? selected : {}} to="/about">About Me</Link>
       </div>
       <div id="footer" style={isOpen ? active : {}}>
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fastestpeanut">  
