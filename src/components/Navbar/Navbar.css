@@ -74,7 +74,7 @@
 }
 
 /* Mobile Phones */ 
-@media only screen and (max-width : 1280px) {
+@media only screen and (max-width : 1024px) {
   #navbar {
     overflow: hidden;
     position: relative;
@@ -116,7 +116,7 @@
   }
   
   #navbar-header-title {
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 900;
   }
 

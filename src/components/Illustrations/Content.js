@@ -11,22 +11,22 @@ const Images = [
     thumbnail: SMALL_NARRATIVE,
     thumbnailWidth: 2560,
     thumbnailHeight: 1430,
-    title: "After Rain (Jeshu John - designerspics.com)"
+    caption: "Inventive Architecture (March 2020) - Adobe Photoshop"
   },
   {
     src: FULL_STILL,
     thumbnail: SMALL_STILL,
     thumbnailWidth: 1920,
     thumbnailHeight: 1080,
-    title: "After Rain (Jeshu John - designerspics.com)"
+    caption: "Still Life (February 2020) - Adobe Photoshop"
   },
   {
     src: FULL_2DFINAL,
     thumbnail: SMALL_2DFINAL,
     thumbnailWidth: 3300,
     thumbnailHeight: 5100,
-    title: "After Rain (Jeshu John - designerspics.com)"
-  }
+    caption: "Into the Hornet's Nest! (December 2019) - Adobe Photoshop"
+  },
 ]
 
 export {

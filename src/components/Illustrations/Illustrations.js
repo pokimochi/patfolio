@@ -6,7 +6,7 @@ import { Images } from './Content';
 const Illustrations = () => {
   return (
     <div id="illustrations">
-      <Gallery rowHeight={220 } images={Images} showLightboxThumbnails enableImageSelection={false} backdropClosesModal />
+      <Gallery rowHeight={250} images={Images} showLightboxThumbnails enableImageSelection={false} backdropClosesModal />
     </div>
   );
 }
