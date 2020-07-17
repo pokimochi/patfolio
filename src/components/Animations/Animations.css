@@ -1,0 +1,19 @@
+#animations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin-top: 7.5%;
+}
+
+#animations-subtitle, #animations-title {
+  margin: 0.5em 20vw;
+  text-align: center;
+}
+
+#animations-subtitle {
+  color: #7E7D77;
+  font-weight: 400;
+  font-size: 1em;
+}

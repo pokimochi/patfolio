@@ -1,0 +1,23 @@
+#about {
+  margin: auto;
+  margin-top: 6vh;
+  width: 60%;
+}
+
+#email-link {
+  color: #F58F00;
+  text-decoration-style: wavy;
+}
+
+#headshot {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width : 640px) {
+  #about {
+    margin-top: 34vw;
+  }
+}
