@@ -6,7 +6,14 @@ import { Images } from './Content';
 const Illustrations = () => {
   return (
     <div id="illustrations">
-      <Gallery rowHeight={250} images={Images} showLightboxThumbnails enableImageSelection={false} backdropClosesModal />
+      <Gallery
+        images={Images}
+        showLightboxThumbnails
+        enableImageSelection={false}
+        backdropClosesModal
+        rowHeight={250}
+        margin={5}
+      />
     </div>
   );
 }

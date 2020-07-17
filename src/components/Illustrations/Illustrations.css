@@ -1,6 +1,12 @@
 #illustrations {
-  margin-top: 2vh;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
+  height: 100%;
+  margin: 1vw;
+}
+
+
+@media only screen and (max-width : 640px) {
+  #illustrations {
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
+  }
 }
