@@ -3,7 +3,7 @@
 }
 
 #navbar-container {
-  background-color: #FFB347;
+  background-color: white;
   height: 100%; 
   width: 25%; 
   position: fixed; 
@@ -14,7 +14,7 @@
 }
 
 #navbar-contents {
-  margin-top: 3vw;
+  margin-top: 20px;
 }
 
 #navbar-header-hamburger {
@@ -27,7 +27,7 @@
   border-radius: 50%;
   border-color: rgba(255, 255, 255, 0.6);
   max-width: 60%;
-  margin: auto;
+  margin: 1.5em auto;
 }
 
 #navbar-header-title {
@@ -36,32 +36,43 @@
   max-width: 80%;
 }
 
+#navbar-header-subtitle {
+  display: block;
+  max-width: 60%;
+  /* min-width: 1.5vw; */
+  margin: 1vh auto 0 auto;
+}
+
 .navbar-links {
   display: block;
-  font-size: 2vw;
-  font-weight: 400;
+  font-size: 1.25vw;
+  font-weight: 600;
   color: #141514;
-  margin-top: 0.6em;
+  background-color: #FFB347;
+  margin: 0.15em 20%;
   text-align: center;
   text-decoration: none;
   transition: 0.2s;
+  text-align: center;
+  width: 60%;
+  line-height: max(50px, 2vh);
 }
 
 #footer {
-  width: 100%;
+  width: 75%;
   align-content: center;
-  margin-top: 2.75vw;
+  margin: 2vw auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .navbar-social {
-  width: 3vw;
+  width: 2.5vw;
 }
 
 /* Mobile Phones */ 
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 768px) {
   #navbar-container {
     overflow: hidden;
     position: fixed;

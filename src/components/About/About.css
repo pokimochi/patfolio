@@ -1,6 +1,7 @@
 #about {
   margin: auto;
-  margin-top: 6vh;
+  margin-top: 5vh;
+  line-height: 35px;
   width: 60%;
 }
 
@@ -11,12 +12,12 @@
 
 #headshot {
   display: block;
-  width: 180px;
-  margin: 0 auto;
+  width: 300px;
+  margin: 0 auto 5vh auto;
   border-radius: 50%;
 }
 
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 768px) {
   #about {
     margin-top: 34vw;
   }

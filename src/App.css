@@ -1,5 +1,5 @@
 #App {
-  font-family: 'Dosis', sans-serif;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   font-size: 1.25rem;
 }
 
@@ -9,7 +9,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 768px) {
   .main {
     margin-left: auto;
     margin-right: auto;
