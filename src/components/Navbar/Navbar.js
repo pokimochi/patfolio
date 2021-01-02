@@ -29,8 +29,7 @@ const Navbar = () => {
         <div id="navbar-header">
           <div id="navbar-header-left">
             <img id="navbar-header-title" src={title} alt="Patricia Deogracias" />
-            <p id="navbar-header-subtitle" src={subtitle} alt="Storyboard Artist & Animator" />
-            {/* <img id="navbar-header-subtitle-image" src={subtitle} alt="Storyboard Artist & Animator" /> */}
+            <img id="navbar-header-subtitle-image" src={subtitle} alt="Storyboard Artist & Animator" />
             <img id="navbar-header-avatar" src={avatar} alt="Patricia" />
           </div>
           <div id="navbar-header-hamburger">

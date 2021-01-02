@@ -5,15 +5,16 @@
 
 .main {
   margin-left: 25%;
+  height: 100%;
   padding: 0px 10px;
 }
 
 /* Mobile */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 960px) {
   .main {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 28vw;
+    margin-top: 25%;
     padding: 0;
     width: 100vw;
   }

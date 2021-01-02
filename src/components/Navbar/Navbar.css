@@ -3,18 +3,21 @@
 }
 
 #navbar-container {
-  background-color: white;
-  height: 100%; 
-  width: 25%; 
+  height: 98.3%; 
+  width: 24.25%; 
   position: fixed; 
   z-index: 1; 
   top: 0; 
   left: 0;
   overflow-x: hidden;
+  border: 8px dashed #FFB347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #navbar-contents {
-  margin-top: 20px;
+  margin: 3vh auto auto auto;
 }
 
 #navbar-header-hamburger {
@@ -37,6 +40,16 @@
 }
 
 #navbar-header-subtitle {
+  display: block;
+  width: 90%;
+  margin: 2vh auto;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FFB347;
+  paint-order: stroke fill;
+}
+
+#navbar-header-subtitle-image {
   display: block;
   max-width: 60%;
   /* min-width: 1.5vw; */
@@ -72,16 +85,21 @@
 }
 
 /* Mobile Phones */ 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 960px) {
+  #navbar-contents {
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-height: 10%;
+    background-color: #FFB347;
+  }
+
   #navbar-container {
     overflow: hidden;
     position: fixed;
     height: auto;
-    width: 100vw;
-  }
-
-  #navbar-contents {
-    margin: 2vh 10vw;
+    border: none;
+    width: 100%;
   }
 
   #navbar-header {
@@ -105,18 +123,32 @@
   }
 
   #navbar-header-avatar {
-    width: 20%;
+    width: 15%;
     margin: 0;
   }
   
   #navbar-header-title {
-    width: 50%;
+    width: 25vw;
     margin: 0;
-    margin-left: 5%;
+    margin-left: 8vw;
+  }
+
+  #navbar-header-subtitle {
+    display: block;
+    margin: 0 2vw;
+    border-style: outset;
+    border-color: #FFB347;
+    color: wheat;
+  }
+
+  #navbar-header-subtitle-image {
+    display: block;
+    margin: 0 2vw;
+    width: 30vw;
   }
 
   #navbar-header-hamburger {
-    margin-right: 4px;
+    margin-right: 8vw;
     display: block;
   }
 

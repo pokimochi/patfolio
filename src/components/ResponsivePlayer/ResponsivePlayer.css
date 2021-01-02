@@ -1,0 +1,27 @@
+.player-subtitle, .player-title {
+  text-align: center;
+}
+
+.player-title {
+  margin: 5vh auto 2vh auto;
+}
+
+.player-subtitle {
+  color: #7E7D77;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.player-wrapper {
+  max-width: 80vw;
+}
+
+.react-player div {
+  width: 10px;
+  height: 10px;
+}
+
+/* Mobile */
+@media only screen and (max-width : 720) {
+  
+}
