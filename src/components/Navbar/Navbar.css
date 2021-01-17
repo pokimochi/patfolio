@@ -164,10 +164,6 @@
     overflow: auto;
   }
 
-  #navbar-header-avatar {
-    width: 40%;
-  }
-
   #navbar-header-title {
     max-width: 80%;
   }
@@ -180,16 +176,8 @@
 }
 
 @media only screen and (max-height : 520px) {
-  #navbar-header-avatar {
-    width: 40%;
-  }
-
   #navbar-header-title {
     max-width: 50%;
-  }
-
-  #navbar-header-subtitle {
-    
   }
 
   .navbar-links {
