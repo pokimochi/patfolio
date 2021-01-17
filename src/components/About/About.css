@@ -1,12 +1,12 @@
 #about {
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 10vh;
   line-height: 35px;
   width: 60%;
 }
 
 #email-link {
-  color: #F58F00;
+  color: #face54;
   text-decoration-style: wavy;
 }
 
@@ -16,11 +16,6 @@
   max-width: 50vw;
   margin: 0 auto 5vh auto;
   border-radius: 50%;
-}
-
-@media only screen and (max-width : 960px) {
-  #about {
-    margin-top: auto;
-    width: 80%;
-  }
+  border: solid #FFDB77;
+  border-width: 5px;
 }

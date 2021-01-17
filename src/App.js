@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import Navbar from './components/Navbar/Navbar';
+import Story from './components/Story/Story';
 import Illustrations from './components/Illustrations/Illustrations';
 import Animations from './components/Animations/Animations';
 import About from './components/About/About';
@@ -20,6 +21,9 @@ function App() {
         <Navbar />
         <div className="main">
           <Switch>
+          <Route path="/story">
+              <Story />
+            </Route>
             <Route path="/illustrations">
               <Illustrations />
             </Route>
@@ -30,7 +34,7 @@ function App() {
               <About />
             </Route>
             <Route exact path="/">
-              <Redirect to="/illustrations" />
+              <Redirect to="/story" />
             </Route>
           </Switch>
         </div>

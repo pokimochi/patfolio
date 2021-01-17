@@ -29,7 +29,7 @@ const Navbar = () => {
         <div id="navbar-header">
           <div id="navbar-header-left">
             <img id="navbar-header-title" src={title} alt="Patricia Deogracias" />
-            <img id="navbar-header-subtitle-image" src={subtitle} alt="Storyboard Artist & Animator" />
+            <h5 id="navbar-header-subtitle">STORYBOARD ARTIST & ANIMATOR</h5>
             <img id="navbar-header-avatar" src={avatar} alt="Patricia" />
           </div>
           <div id="navbar-header-hamburger">
@@ -69,7 +69,7 @@ const Navbar = () => {
             style={location.pathname === "/illustrations" ? selected : {}}
             to="/illustrations"
           >
-            SKETCHES & COMICS
+            ILLUSTRATIONS
           </Link>
           <Link
             className="navbar-links"

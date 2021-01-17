@@ -3,21 +3,18 @@
 }
 
 #navbar-container {
-  height: 98.3%; 
-  width: 24.25%; 
+  height: 90vh;
+  margin: 2.5vh 0 7.5vh 0;
+  width: 25vw; 
   position: fixed; 
   z-index: 1; 
   top: 0; 
   left: 0;
   overflow-x: hidden;
-  border: 8px dashed #FFB347;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#navbar-contents {
-  margin: 3vh auto auto auto;
+  text-align: center;
 }
 
 #navbar-header-hamburger {
@@ -29,24 +26,26 @@
   border: 3px solid;
   border-radius: 50%;
   border-color: rgba(255, 255, 255, 0.6);
-  max-width: 60%;
-  margin: 1.5em auto;
+  width: 55%;
+  margin: 2vh auto;
 }
 
 #navbar-header-title {
   display: block;
   margin: auto;
-  max-width: 80%;
+  max-width: 75%;
 }
 
 #navbar-header-subtitle {
   display: block;
-  width: 90%;
-  margin: 2vh auto;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #FFB347;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
   paint-order: stroke fill;
+  white-space: nowrap;
+  margin: 2vh 0 0 0;
+  width: 90%;
+  font-size: 1vw;
 }
 
 #navbar-header-subtitle-image {
@@ -61,7 +60,7 @@
   font-size: 1.25vw;
   font-weight: 600;
   color: #141514;
-  background-color: #FFB347;
+  background-color: #FFDB77;
   margin: 0.15em 20%;
   text-align: center;
   text-decoration: none;
@@ -85,17 +84,15 @@
 }
 
 /* Mobile Phones */ 
-@media only screen and (max-width : 960px) {
+@media screen and (max-width : 960px) {
   #navbar-contents {
     margin-top: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
     max-height: 10%;
-    background-color: #FFB347;
+    background-color: #FFDBAA;
   }
 
   #navbar-container {
-    overflow: hidden;
+    margin-top: 0;
     position: fixed;
     height: auto;
     border: none;
@@ -119,49 +116,93 @@
   
   .navbar-links {
     text-align: center;
-    font-size: 1em;
+    background-color: #FFA55F;
+    font-size: 3vw;
   }
 
   #navbar-header-avatar {
     width: 15%;
-    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 9vw;
+    margin-right: auto;
   }
   
   #navbar-header-title {
     width: 25vw;
     margin: 0;
-    margin-left: 8vw;
+    margin-left: 26vw;
+    position: absolute;
   }
 
   #navbar-header-subtitle {
-    display: block;
-    margin: 0 2vw;
-    border-style: outset;
-    border-color: #FFB347;
-    color: wheat;
+    display: none;
   }
 
   #navbar-header-subtitle-image {
-    display: block;
-    margin: 0 2vw;
-    width: 30vw;
+    display: none;
   }
 
   #navbar-header-hamburger {
     margin-right: 8vw;
     display: block;
   }
-
-  .navbar-links {
-    font-size: 4vw;
-  }
   
   #footer {
-    margin-top: 3vh;
+    margin: 1.5vh auto;
+    width: 50%;
     display: none;
   }
 
   .navbar-social {
     width: 4.5vw;
+  }
+}
+
+@media only screen and (max-height : 700px) {
+  #navbar-container {
+    overflow: auto;
+  }
+
+  #navbar-header-avatar {
+    width: 40%;
+  }
+
+  #navbar-header-title {
+    max-width: 80%;
+  }
+
+  .navbar-links {
+    display: block;
+    line-height: max(30px, 1vh);
+
+  }
+}
+
+@media only screen and (max-height : 520px) {
+  #navbar-header-avatar {
+    width: 40%;
+  }
+
+  #navbar-header-title {
+    max-width: 50%;
+  }
+
+  #navbar-header-subtitle {
+    
+  }
+
+  .navbar-links {
+    display: block;
+    font-size: 0.5em;
+    line-height: max(20px, 0.5vh);
+
+  }
+}
+
+@media only screen and (max-height : 420px) {
+  #navbar-container {
+    margin: 0;
+    height: 100vh;
   }
 }
