@@ -1,6 +1,6 @@
 #about {
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
   line-height: 35px;
   width: 60%;
 }
@@ -18,4 +18,10 @@
   border-radius: 50%;
   border: solid #FFDB77;
   border-width: 5px;
+}
+
+@media screen and (max-width : 960px) {
+  #about {
+    margin-top: 30vw;
+  }
 }
