@@ -1,13 +1,19 @@
 import React from 'react';
 import "./Animations.css";
-import ReactPlayer from 'react-player';
+import ResponsivePlayer from '../ResponsivePlayer/ResponsivePlayer.js';
 
 const Animations = () => {
   return (
     <div id="animations">
-      <h1 id="animations-title">Animation Reel</h1>
-      <ReactPlayer className="player" width="60%" height="80%" url='https://youtu.be/Zys4yKF3i2w' controls />
-      <h3 id="animations-subtitle">Demo reel featuring work up to May 2020</h3>
+      <ResponsivePlayer
+        url="https://www.youtube.com/watch?v=D_pf8N5zhGs&feature=youtu.be"
+        title="3D Animation Reel 2020"
+      />
+      <ResponsivePlayer
+        url="https://youtu.be/Zys4yKF3i2w"
+        title="2D Animation Reel"
+        subtitle="Demo reel featuring work up to May 2020"
+      />
     </div>
   );
 }

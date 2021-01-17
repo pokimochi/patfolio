@@ -13,12 +13,6 @@ import SMALL_SKETCH1 from '../../resources/images/illustrations/IMG_2516_small.p
 import FULL_SKETCH2 from '../../resources/images/illustrations/IMG_2517.png';
 import SMALL_SKETCH2 from '../../resources/images/illustrations/IMG_2517_small.png';
 
-import FULL_SKETCH3 from '../../resources/images/illustrations/IMG_2518.png';
-import SMALL_SKETCH3 from '../../resources/images/illustrations/IMG_2518_small.png';
-
-import FULL_SKETCH4 from '../../resources/images/illustrations/IMG_2519.png';
-import SMALL_SKETCH4 from '../../resources/images/illustrations/IMG_2519_small.png';
-
 const ratio = 1;
 
 const multiplyByRatio = (val) => {
@@ -48,13 +42,6 @@ const Images = [
     caption: "Into the Hornet's Nest! (December 2019) - 2D Design Final Project"
   },
   {
-    src: FULL_SKETCH4,
-    thumbnail: SMALL_SKETCH4,
-    thumbnailWidth: multiplyByRatio(480),
-    thumbnailHeight: multiplyByRatio(710),
-    caption: "The Sky is Falling! (December 2019) - Drawing 1 Project"
-  },
-  {
     src: FULL_SKETCH1,
     thumbnail: SMALL_SKETCH1,
     thumbnailWidth: multiplyByRatio(480),
@@ -67,13 +54,6 @@ const Images = [
     thumbnailWidth: multiplyByRatio(480),
     thumbnailHeight: multiplyByRatio(270),
     caption: "Penni Parker’s Room (May 2020) - Drawing 2 Final Project"
-  },
-  {
-    src: FULL_SKETCH3,
-    thumbnail: SMALL_SKETCH3,
-    thumbnailWidth: multiplyByRatio(480),
-    thumbnailHeight: multiplyByRatio(282),
-    caption: "Inventive Interior (October 2019) - Drawing 1 Project"
   },
 ]
 

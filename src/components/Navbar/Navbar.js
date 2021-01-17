@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
 import avatar from './../../resources/images/avatar.png';
-import title from './../../resources/images/title.png'
+import title from './../../resources/images/title.png';
+import subtitle from './../../resources/images/subtitle.png'
 import Twitter from './../../resources/images/footer/twitter.svg';
 import LinkedIn from './../../resources/images/footer/linkedin.svg';
 import Instagram from './../../resources/images/footer/instagram.svg';
@@ -27,8 +28,9 @@ const Navbar = () => {
       <div id="navbar-contents">
         <div id="navbar-header">
           <div id="navbar-header-left">
-            <img id="navbar-header-avatar" src={avatar} alt="Patricia" />
             <img id="navbar-header-title" src={title} alt="Patricia Deogracias" />
+            <h5 id="navbar-header-subtitle">STORYBOARD ARTIST & ANIMATOR</h5>
+            <img id="navbar-header-avatar" src={avatar} alt="Patricia" />
           </div>
           <div id="navbar-header-hamburger">
             <HamburgerMenu
@@ -44,10 +46,39 @@ const Navbar = () => {
             />
           </div>
         </div>
-        <div id="navbar-links-container" style={isOpen ? {display: "block"} : {}}>
-          <Link className="navbar-links" onClick={handleBurgerClicked} style={location.pathname === "/illustrations" ? selected : {}} to="/illustrations">Illustrations & Sketches</Link>
-          <Link className="navbar-links" onClick={handleBurgerClicked} style={location.pathname === "/animations" ? selected : {}} to="/animations">Animations</Link>
-          <Link className="navbar-links" onClick={handleBurgerClicked} style={location.pathname === "/about" ? selected : {}} to="/about">About Me</Link>
+        <div id="navbar-links-container" style={isOpen ? { display: "block" } : {}}>
+        <Link
+            className="navbar-links"
+            onClick={handleBurgerClicked}
+            style={location.pathname === "/story" ? selected : {}}
+            to="/story"
+          >
+            STORY
+          </Link>
+          <Link
+            className="navbar-links"
+            onClick={handleBurgerClicked}
+            style={location.pathname === "/animations" ? selected : {}}
+            to="/animations"
+          >
+            ANIMATIONS
+          </Link>
+          <Link
+            className="navbar-links"
+            onClick={handleBurgerClicked}
+            style={location.pathname === "/illustrations" ? selected : {}}
+            to="/illustrations"
+          >
+            ILLUSTRATIONS
+          </Link>
+          <Link
+            className="navbar-links"
+            onClick={handleBurgerClicked}
+            style={location.pathname === "/about" ? selected : {}}
+            to="/about"
+          >
+            ABOUT ME
+          </Link>
         </div>
         <div id="footer" style={isOpen ? {display: "flex"} : {}}>
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fastestpeanut">

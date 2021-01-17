@@ -1,12 +1,10 @@
 #illustrations {
+  margin-top: 1.75vh;
   height: 100%;
-  margin: 1vw;
 }
 
-
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 960px) {
   #illustrations {
-    margin-left: 0.25vw;
-    margin-right: 0.25vw;
+    margin: 0 0.25vw;
   }
 }

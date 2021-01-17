@@ -1,0 +1,39 @@
+#story {
+  height: 100%;
+}
+
+.storyboard-banner {
+  width: 85%;
+  margin: 0 7.5% 0 7.5%;
+}
+
+.storyboard {
+  margin: 5% 10%;
+}
+
+.storyboard:first-of-type {
+  margin-top: 0;
+}
+
+.storyboard:last-of-type {
+  margin-bottom: 0;
+}
+
+.storyboard-design {
+  width: 100%;
+}
+
+.storyboard-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.25em;
+}
+
+.storyboard-subtitle {
+  font-size: 0.9em;
+}
+
+.storyboard-title, .storyboard-subtitle {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
