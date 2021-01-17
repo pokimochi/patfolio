@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import "./Navbar.css";
 import avatar from './../../resources/images/avatar.png';
 import title from './../../resources/images/title.png';
-import subtitle from './../../resources/images/subtitle.png'
 import Twitter from './../../resources/images/footer/twitter.svg';
 import LinkedIn from './../../resources/images/footer/linkedin.svg';
 import Instagram from './../../resources/images/footer/instagram.svg';
