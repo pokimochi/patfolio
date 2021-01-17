@@ -26,10 +26,7 @@ function importStoryboards() {
         context: require.context('../../../public/images/home', false, /\.(PNG)$/),
         folderName: 'home'
       },
-      design: {
-        context: require.context('../../../public/images/home/design', false, /\.(png)$/),
-        folderName: 'home/design'
-      }
+      design: null
     },
   ];
   
@@ -55,9 +52,11 @@ function importStoryboards() {
     });
 
     let designs = [];
-    folder.design.context.keys().forEach((item) => {
-      designs.push(window.location.origin.concat('/images/').concat(folder.design.folderName).concat(item.replace('.', '')))
-    });
+    if (folder.design != null) {
+      folder.design.context.keys().forEach((item) => {
+        designs.push(window.location.origin.concat('/images/').concat(folder.design.folderName).concat(item.replace('.', '')))
+      });
+    }
 
     storyboards.push({
       text: text[index],
